@@ -45,17 +45,25 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Bluetooth LE is used to communicate with stationary nodes to determine your location on the map</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Bluetooth LE is used to communicate with stationary nodes to determine your location on the map</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+        <string>bluetooth-le</string>
+    </array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-VariableFont_slnt,wght.ttf</string>
+	</array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>

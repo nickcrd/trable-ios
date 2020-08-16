@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4D0B189D24E958C8009AE5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B189C24E958C8009AE5D4 /* AppDelegate.swift */; };
 		4D0B189F24E958C8009AE5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B189E24E958C8009AE5D4 /* SceneDelegate.swift */; };
-		4D0B18A124E958C8009AE5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B18A024E958C8009AE5D4 /* ViewController.swift */; };
 		4D0B18A424E958C8009AE5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B18A224E958C8009AE5D4 /* Main.storyboard */; };
 		4D0B18A624E958CA009AE5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B18A524E958CA009AE5D4 /* Assets.xcassets */; };
 		4D0B18A924E958CA009AE5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B18A724E958CA009AE5D4 /* LaunchScreen.storyboard */; };
 		4D0B18B424E958CB009AE5D4 /* TrableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B18B324E958CB009AE5D4 /* TrableTests.swift */; };
 		4D0B18BF24E958CB009AE5D4 /* TrableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B18BE24E958CB009AE5D4 /* TrableUITests.swift */; };
+		4D0B18D924E9619A009AE5D4 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B18CF24E95E2B009AE5D4 /* Inter-VariableFont_slnt,wght.ttf */; };
+		4D0B18DD24E97BEC009AE5D4 /* BluetoothPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B18DC24E97BEC009AE5D4 /* BluetoothPermissionViewController.swift */; };
+		4D0B18DF24E98CC5009AE5D4 /* BluetoothPermissionErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B18DE24E98CC5009AE5D4 /* BluetoothPermissionErrorViewController.swift */; };
+		4D0B18E224E9976F009AE5D4 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B18E124E9976F009AE5D4 /* UserDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		4D0B189924E958C8009AE5D4 /* Trable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B189C24E958C8009AE5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D0B189E24E958C8009AE5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D0B18A024E958C8009AE5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D0B18A324E958C8009AE5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0B18A524E958CA009AE5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0B18A824E958CA009AE5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		4D0B18BA24E958CB009AE5D4 /* TrableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B18BE24E958CB009AE5D4 /* TrableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrableUITests.swift; sourceTree = "<group>"; };
 		4D0B18C024E958CB009AE5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0B18CF24E95E2B009AE5D4 /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		4D0B18DC24E97BEC009AE5D4 /* BluetoothPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionViewController.swift; sourceTree = "<group>"; };
+		4D0B18DE24E98CC5009AE5D4 /* BluetoothPermissionErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionErrorViewController.swift; sourceTree = "<group>"; };
+		4D0B18E124E9976F009AE5D4 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		4D0B189B24E958C8009AE5D4 /* Trable */ = {
 			isa = PBXGroup;
 			children = (
+				4D0B18E024E99757009AE5D4 /* Helpers */,
+				4D0B18DA24E97BD2009AE5D4 /* Views */,
+				4D0B18CD24E95DFB009AE5D4 /* Resources */,
 				4D0B189C24E958C8009AE5D4 /* AppDelegate.swift */,
 				4D0B189E24E958C8009AE5D4 /* SceneDelegate.swift */,
-				4D0B18A024E958C8009AE5D4 /* ViewController.swift */,
 				4D0B18A224E958C8009AE5D4 /* Main.storyboard */,
 				4D0B18A524E958CA009AE5D4 /* Assets.xcassets */,
 				4D0B18A724E958CA009AE5D4 /* LaunchScreen.storyboard */,
@@ -126,6 +134,47 @@
 				4D0B18C024E958CB009AE5D4 /* Info.plist */,
 			);
 			path = TrableUITests;
+			sourceTree = "<group>";
+		};
+		4D0B18CD24E95DFB009AE5D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B18CE24E95E03009AE5D4 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D0B18CE24E95E03009AE5D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B18CF24E95E2B009AE5D4 /* Inter-VariableFont_slnt,wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4D0B18DA24E97BD2009AE5D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B18DB24E97BD7009AE5D4 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D0B18DB24E97BD7009AE5D4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B18DC24E97BEC009AE5D4 /* BluetoothPermissionViewController.swift */,
+				4D0B18DE24E98CC5009AE5D4 /* BluetoothPermissionErrorViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4D0B18E024E99757009AE5D4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B18E124E9976F009AE5D4 /* UserDefault.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0B18D924E9619A009AE5D4 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
 				4D0B18A924E958CA009AE5D4 /* LaunchScreen.storyboard in Resources */,
 				4D0B18A624E958CA009AE5D4 /* Assets.xcassets in Resources */,
 				4D0B18A424E958C8009AE5D4 /* Main.storyboard in Resources */,
@@ -258,9 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0B18A124E958C8009AE5D4 /* ViewController.swift in Sources */,
 				4D0B189D24E958C8009AE5D4 /* AppDelegate.swift in Sources */,
+				4D0B18DD24E97BEC009AE5D4 /* BluetoothPermissionViewController.swift in Sources */,
+				4D0B18E224E9976F009AE5D4 /* UserDefault.swift in Sources */,
 				4D0B189F24E958C8009AE5D4 /* SceneDelegate.swift in Sources */,
+				4D0B18DF24E98CC5009AE5D4 /* BluetoothPermissionErrorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,11 +491,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LMFR8C2XKP;
 				INFOPLIST_FILE = Trable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.nickcontrolstudios.Trable;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nickcontrolstudios.trable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,11 +511,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LMFR8C2XKP;
 				INFOPLIST_FILE = Trable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.nickcontrolstudios.Trable;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nickcontrolstudios.trable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
