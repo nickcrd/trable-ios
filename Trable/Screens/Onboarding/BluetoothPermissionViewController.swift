@@ -43,7 +43,7 @@ class BluetoothPermissionViewController: UIViewController, CBPeripheralManagerDe
             case .poweredOn:
                 fallthrough
             case .resetting:
-                performSegue(withIdentifier: "finishOnboarding", sender: nil)
+                performSegue(withIdentifier: "goToServerSelection", sender: nil)
                 break
                 
             // Tell user to go to settings and allow access
