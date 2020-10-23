@@ -103,7 +103,7 @@ class QRCodeScannerViewController: UIViewController, AVCaptureMetadataOutputObje
             
             print("DEBUG: url.host?: " + (url.host ?? "nil"))
 
-            if (url.host == "gettrable.app" || url.scheme == "trable") {
+            if (url.host == "trable.app" || url.scheme == "trable") {
                
                 print("DEBUG: > It's a Trable URL")
 
